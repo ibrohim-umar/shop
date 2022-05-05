@@ -1,0 +1,116 @@
+.nav-top{
+    background: linear-gradient(91.63deg, #C229BC 0.42%, #5F00CA 100%) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.nav-top .top-left{
+    margin-left: 5%;
+    color: rgb(252, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5px;
+    gap: 5px;
+}
+.nav-top .top-left .map{
+   background: transparent;
+   border-radius: 2px;
+}
+.nav-top .top-right{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5%;
+    gap: 5px;
+}
+.nav-bottom{
+    
+    display: flex;
+    box-shadow: 0px 15px 20px rgb(225, 219, 219);
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+}
+.nav-bottom .bottom-left h1{
+    font-size: 24px;
+    color: #C229BC;
+}
+.nav-bottom .bottom-center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+}
+.nav-bottom .bottom-center-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bottom-center-search{
+    gap: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bottom-center-menu{
+    background: linear-gradient(91.63deg, #C229BC 0.42%, #5F00CA 100%) ;
+    height: 45px;
+    width: 147px;
+    border-radius: 10px;
+
+}
+.bottom-center-menu .menu-icon{
+    z-index: 10;
+}
+.bottom-center-search input{
+    height: 45px;
+    border-radius: 10px 0px 0px 10px;
+    width: 665px;
+    background: rgba(143, 64, 231, 0.2);
+    border: 0.01px solid white;
+    
+}
+ .bottom-center-search .search{
+    background-color:rebeccapurple;
+    height: 45px;
+    border-radius: 0px 10px 10px 0px ;
+    width: 45px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+ .bottom-right{
+     margin-right: 20px;
+ }
+.active{
+    visibility: hidden;
+
+}
+.disactive{
+ position: absolute;
+ z-index: 100;
+ height: 100vh;
+ width: 100%;
+ background-color: white;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.disactive ul li{
+    list-style: none;
+    padding: 80px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
