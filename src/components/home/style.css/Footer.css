@@ -1,0 +1,26 @@
+.Footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: space-around;
+    margin-top: 150px;
+    background:  linear-gradient(91.63deg, #C229BC 0.42%, #5F00CA 100%);
+}
+.Footer .info p{
+    padding: 3px;
+}
+.Footer .media p{
+   padding: 3px;
+}
+ .payment .input {
+     
+    display: grid;
+    grid-template-columns: repeat(2,107px);
+    gap: 5px;
+    
+}
+.payment .input input{
+    border-radius: 10px;
+    
+    height: 54px;
+}

@@ -1,0 +1,65 @@
+.container{
+    
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    width: 303px;
+    height: 365px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 10px rgb(0, 0, 3);
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.card .heard{
+    position: absolute;
+    color: white;
+    
+}
+.card img{
+width: 224px;
+height: 190px;
+}
+.card .card-h{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+
+}
+.card-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -40px;
+    gap: 10px;
+}
+.card-name h3{
+    color: blueviolet;
+}
+ .card-corzinka{
+     
+     margin: 20px;
+     cursor: pointer;
+     width: 273px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(91.63deg, #C229BC 0.42%, #5F00CA 100%);
+}
+.card-corzinka h1{
+    font-size: 20px;   
+}
+ .card-corzinka .shop{
+    
+    color: white;   
+}

@@ -39,13 +39,14 @@ const Navbar = () => {
                       <input type="search" placeholder='Search...' />
                       <SearchOutlined  className='search' />
                   </div>
+                   <div className="bottom-right">
+                  <div><img src={Heard} alt="" className='right-icon' /></div>
+                  <div> <img src={Contact} alt="" className='right-icon' /></div>
+                  <div><img src={Corzinka} alt="" className='right-icon' /> </div>
+                        
              </div>
-             <div className="bottom-right">
-
-                 <img src={Heard} alt="" className='right-icon' />
-                 <img src={Contact} alt="" className='right-icon' />
-                 <img src={Corzinka} alt="" className='right-icon' />    
              </div>
+            
          </div>
          <section  className={menu ? 'active' : 'disactive'} >
               <ul>
